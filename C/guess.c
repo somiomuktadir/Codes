@@ -16,7 +16,7 @@ int main()
     }
     else if(a >= 1 && a<=33)
     {
-        printf("You were close if you typed 33. Otherwise higher guess!\n");
+        printf("You were close if you typed 33. Otherwise bad guess!\n");
     }
     else
     {
