@@ -2,7 +2,6 @@
 //h denoted height, w denotes weight and bmi stands for body mass index
 
 #include <stdio.h>
-
 int main()
 {
     float w,h,bmi;
@@ -10,7 +9,6 @@ int main()
     scanf("%f%f", &w,&h);
     bmi = w/ (h*h);
     printf("Your BMI is : %f \n", bmi);
-    
     if(bmi<18.5)
     {
         printf("You are underweight\n");
@@ -28,5 +26,4 @@ int main()
         printf("You are obese\n");
     }
     return 0;
-
 }
